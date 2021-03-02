@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramen</title>
+  <!-- Scroll Animation CDN -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./style.css ">
+</head>
+<body>
+  <header>
+    <span class="logo">
+      <img src="./utils/Logo.png" />
+    </span>
+
+    <nav class="dropdown">
+      <div onclick="dropdown()" class="dropbtn">&#9776;</div>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Order</li>
+          <li>Menu</li>
+          <li>Contact</li>
+        </ul>
+        <button>LOG IN</button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="section-content">
+      <h1 data-aos="fade-right">A Bowl of Love From Japanese Cuisine</h1>
+
+      <p>Ramen (ラーメン) is a noodle soup dish
+        that was originally imported from China and has become one of the most popular dishes in Japan in recent decades.
+      </p>
+
+      <button data-aos="zoom-in" data-aos-duration="1000">ORDER NOW</button>
+    </div>
+
+    <div class="illustration">
+      <img data-aos="fade-in" data-aos-delay="1000" src="./utils/Illustration-3.png" alt="hero illustration" />
+    </div>
+  </div>
+
+  <div class="special-dishes">
+    <div class="special-dishes-content">
+      <img src="./utils/Illustration-2.png" alt="tomato ramen" />
+
+      <div>
+        <h4>Tomato Ramen</h4>
+        <p>
+          Hard boiled, soft boiled, raw and marinated eggs...
+        </p>
+      </div>
+    </div>
+
+    <div class="special-dishes-content">
+      <img src="./utils/Illustration-1.png" alt="tomato ramen" />
+
+      <div>
+        <h4>Tori Ramen</h4>
+        <p>
+          Made of chicken and a white and creamy soup...
+        </p>
+      </div>
+    </div>
+
+    <div class="special-dishes-content">
+      <img src="./utils/Illustration.png" alt="tomato ramen" />
+
+      <div>
+        <h4>Tonkotsu Ramen</h4>
+        <p>
+          Made of pork bones which have been boiled down...
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  Ramen &copy;2021
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+  <script src="./script.js"></script>
+</body>
+</html>
